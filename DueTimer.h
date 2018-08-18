@@ -18,10 +18,6 @@
 
 #define USING_IR_LIB	true
 
-#ifdef USING_IR_LIB
-	#warning "HEY! You have set flag USING_IR_LIB. Timer3 not available"
-#endif
-
 
 #if defined TC2
 #define NUM_TIMERS  9
